@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-root {
+  position: relative;
+}
+
+p {
+  font-family: 'museo sans', 'sans-serif';
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'museo sans', 'sans-serif';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+      width: 100vw;
+      height: calc(100vh - 68px);
+    }
+}
+
+main {
+  height: 100%;
+  scroll-snap-type: y mandatory;
+
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  color: black;
+}

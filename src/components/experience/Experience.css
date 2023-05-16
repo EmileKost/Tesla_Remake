@@ -1,0 +1,84 @@
+
+.experience {
+    height: 100vh;
+    background-image: url('../../assets/backgrounds/models.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    font-family: 'museo sans', 'sans-serif';
+    font-weight: 500;
+  }
+
+  h4 {
+    font-family: 'museo sans', 'sans-serif';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+.experience-content-container {
+    height: 80%;
+    position: relative;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.experience-content-container h1 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .experience-content-container h1 {
+        font-size: 36px;
+    }
+}
+
+.experience-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.btn-container {
+    width: 100%;
+    position: absolute;
+    bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-btn {
+    height: 40px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: #0000000d;
+    color: #ffffff;
+    font-family: 'museo sans', 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.demo-btn {
+    width: 264px;
+}
+
+@media screen and (max-width: 600px) {
+    .demo-btn {
+        width: 100%;
+    }
+}
+

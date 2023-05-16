@@ -1,0 +1,187 @@
+
+
+.inventory {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.content-container {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    scroll-snap-align:end;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.model3 {
+    background-image: url('../../assets/backgrounds/model3.jpeg');
+    scroll-snap-align: center;
+  }
+
+  .modely {
+    background-image: url('../../assets/backgrounds/modely.jpeg');
+    scroll-snap-align: center;
+  }
+
+  .models {
+    background-image: url('../../assets/backgrounds/models.jpeg');
+    scroll-snap-align: center;
+  }
+
+  .modelx {
+    background-image: url('../../assets/backgrounds/modelx.jpeg');
+    scroll-snap-align: center;
+  }
+
+  .solar {
+    background-image: url('../../assets/backgrounds/solarroof.jpeg');
+    scroll-snap-align: center;
+  }
+
+
+  .accessoires-text-container {
+    scroll-snap-align: start;
+  }
+
+  .footer-menu {
+    scroll-snap-align: start;
+  }
+
+  .accessoires img {
+    margin-bottom: 40px;
+    width: 50vw;
+    height: auto;
+  }
+
+  h1 {
+    font-family: 'museo sans', 'sans-serif';
+    font-weight: 500;
+  }
+
+  .model-content-container a {
+    font-family: 'museo sans', 'sans-serif';
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+  }
+
+  .model-content-container p {
+    font-family: 'museo sans', 'sans-serif';
+
+  }
+
+  .model-content-container {
+    height: 80%;
+    position: relative;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .model-content-container h1 {
+    color: #000;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .model-content-container h1 {
+        font-size: 36px;
+    }
+}
+
+.model-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.model-btn-container {
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-btn-container button {
+    font-family: 'museo sans', 'sans-serif';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.model-order-btn, .model-demo-btn {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width: 264px;
+}
+
+.model-order-btn {
+    background-color: #171A20CC;
+    color: #fff;
+}
+
+.model-demo-btn {
+    color: #393c41;
+    background-color:#f4f4f4a6;
+}
+
+@media screen and (max-width: 600px) {
+    .model3-btn-container {
+        flex-direction: column;
+    }
+    .model3-order-btn, .model3-demo-btn {
+        width: 100%;
+    }
+} 
+
+
+.accessoires {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* scroll-snap-align: start; */
+}
+
+.accessoires-content-container {
+  height: 700px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.accessoires-content-container h1 {
+  font-size: 40px;
+}
+
+.accessoires-content-container img {
+  height: 350px;
+  width: auto;
+}
+
+.accessoires-content-container button {
+  height: 50px;
+  width: 150px;
+  font-family: 'museo sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #171A20;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+
